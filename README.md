@@ -11,3 +11,10 @@ you can get  lastest version  [here](https://www.sonarqube.org/downloads/)
 
 ### Sonarqube
 Sonarqube is an open source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells and security vulnerabilities.
+
+### Refactoring techniques used
+
+- Extract Variable 
+- Extract Method
+- Replace Array with Object
+- Decompose Conditional
