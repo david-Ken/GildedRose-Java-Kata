@@ -6,7 +6,7 @@ See also [Bobby Johnson's description of the kata](http://iamnotmyself.com/2011/
 
 # My Java Refactoring
 This project use local instance of sonarqube and gradle plugin. 
-Note : my instance of sonarqube will no be included in this repository.
+Note : my instance of sonarqube will not be included in this repository.
 you can get  lastest version  [here](https://www.sonarqube.org/downloads/)
 
 ### Sonarqube
