@@ -7,7 +7,8 @@ See also [Bobby Johnson's description of the kata](http://iamnotmyself.com/2011/
 # My Java Refactoring
 This project use local instance of sonarqube and gradle plugin. 
 Note : my instance of sonarqube will not be included in this repository.
-You can get  latest version  [here](https://www.sonarqube.org/downloads/)
+You can get  latest version  [here](https://www.sonarqube.org/downloads/).
+Java folder contains the original kata without any refactoring. 
 
 ### Sonarqube
 Sonarqube is an open source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells and security vulnerabilities.
