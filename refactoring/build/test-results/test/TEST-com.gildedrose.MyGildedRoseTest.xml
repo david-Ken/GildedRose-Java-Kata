@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gildedrose.MyGildedRoseTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-01-14T13:50:22" hostname="bertrand-X751SA" time="0.012">
+  <properties/>
+  <testcase name="testGildedRose" classname="com.gildedrose.MyGildedRoseTest" time="0.004"/>
+  <testcase name="testUpdateQuality" classname="com.gildedrose.MyGildedRoseTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
