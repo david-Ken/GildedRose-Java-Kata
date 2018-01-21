@@ -102,11 +102,11 @@ public class MyGildedRoseTest {
 		assertTrue("Aged Brie mois 6 de sellIn", item[0].quality == 22 && item[0].sellIn == -11);
 		
 		// sellIn negatif qualite < 60
-				item[0].name = "Aged Brie";
-				item[0].quality = 60;
-				item[0].sellIn = -10;
-				app.updateQuality();
-				assertTrue("Aged Brie mois 6 de sellIn", item[0].quality == 60 && item[0].sellIn == -11);
+		item[0].name = "Aged Brie";
+		item[0].quality = 60;
+		item[0].sellIn = -10;
+		app.updateQuality();
+		assertTrue("Aged Brie mois 6 de sellIn", item[0].quality == 60 && item[0].sellIn == -11);
 
 		/**************** TEST SUR DU BACKSATAGE *************/
 		item[0].name = "Backstage passes to a TAFKAL80ETC concert";
@@ -139,18 +139,18 @@ public class MyGildedRoseTest {
 		item[0].quality = 60;
 		item[0].sellIn = 15;
 		app.updateQuality();
-		assertTrue("Backstage depansant 50 de qualité", item[0].quality== 60 && item[0].sellIn == 14);
+		assertTrue("Backstage depassant 50 de qualité", item[0].quality== 60 && item[0].sellIn == 14);
 
 
 		item[0].quality = 49;
 		item[0].sellIn = 8;
 		app.updateQuality();
-		assertTrue("Backstage depansant 50 de qualité sellIn < 11", item[0].quality== 50 && item[0].sellIn == 7);
+		assertTrue("Backstage depassant 50 de qualité sellIn < 11", item[0].quality== 50 && item[0].sellIn == 7);
 
 		item[0].quality = 49;
 		item[0].sellIn = 3;
 		app.updateQuality();
-		assertTrue("Backstage depansant 50 de qualité sellIn < 11", item[0].quality== 50 && item[0].sellIn == 2);
+		assertTrue("Backstage depassant 50 de qualité sellIn < 11", item[0].quality== 50 && item[0].sellIn == 2);
 		
 		// sellIn == 0 qualite < 50
 		item[0].name = "Backstage passes to a TAFKAL80ETC concert";
