@@ -18,4 +18,4 @@ Sonarqube is an open source platform for continuous inspection of code quality t
 - Extract Variable 
 - Extract Method
 - Replace Array with Object
-- Decompose Conditional
+- Decompose Conditional statement
